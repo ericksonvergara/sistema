@@ -2,11 +2,6 @@
 
 @section('content')
     <div class="container">
-
-        {{-- @if (Session::has('mensaje'))
-{{Session::get('mensaje')}}
-@endif --}}
-
         <form action="{{ url('/empleado/' . $empleado->id) }}" method="post" enctype="multipart/form-data">
             @csrf
             {{ method_field('PATCH') }}

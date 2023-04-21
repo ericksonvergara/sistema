@@ -114,7 +114,6 @@ class EmpleadoController extends Controller
         ];
         $mensaje=[
             'required'=>'El :attribute es requerido',
-
         ];
 
         if ($request->hasFile('Foto')) {
